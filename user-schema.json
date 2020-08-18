@@ -1,0 +1,19 @@
+{
+    "name":"User",
+    "namespace":"App",
+    "complete_name":"App\\User",
+    "table":{
+        "name":"users",
+        "colums":[
+                    { "name":"id", "type":"BigInt", "length":"", "nullable":"", "autoincrement":"1", "default":"" },
+                                { "name":"name", "type":"String", "length":"255", "nullable":"", "autoincrement":"", "default":"" },
+                                { "name":"email", "type":"String", "length":"255", "nullable":"", "autoincrement":"", "default":"" },
+                                { "name":"email_verified_at", "type":"DateTime", "length":"0", "nullable":"1", "autoincrement":"", "default":"" },
+                                { "name":"password", "type":"String", "length":"255", "nullable":"", "autoincrement":"", "default":"" },
+                                { "name":"remember_token", "type":"String", "length":"100", "nullable":"1", "autoincrement":"", "default":"" },
+                                { "name":"created_at", "type":"DateTime", "length":"0", "nullable":"1", "autoincrement":"", "default":"" },
+                                { "name":"updated_at", "type":"DateTime", "length":"0", "nullable":"1", "autoincrement":"", "default":"" }                ]
+    },
+    "relations": [
+            ]
+}
