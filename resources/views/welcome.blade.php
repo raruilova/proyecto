@@ -259,6 +259,7 @@
               </thead>
               <tbody>
             @foreach($snacks as $snack)<!--recorre toda la tabla, pongo la varible que declarre en el PublicController el as es un alias-->
+            <!--Ejemplo de commit--->
             <tr>
               <td>{{$snack->bar->campus->nombre}}</td>
               <td>{{$snack->bar->nombre}}</td><!--me escribe la tabla pero el nombre-->
