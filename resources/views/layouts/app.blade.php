@@ -136,6 +136,12 @@ DEVO IR AL PROYECTO LLAMADO GYM, LUEGO A RUTES Y AHI A WEB.PHP,LUEGO DEBO IR A W
         </a>
       </li>
       <li>
+        <a href="reportes" class="waves-effect text-white" style="text-decoration:none">
+          <i class="material-icons white-text">content_paste</i>
+          Reportes
+        </a>
+      </li>
+      <li>
         <a href="home" class="waves-effect text-white" style="text-decoration:none">
           <i class="material-icons white-text">home</i>
           Home
@@ -163,6 +169,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems);
 //para saber mas, debo ir al CursoMaterialize que esta fuera de htdocs en mi workspace
+M.AutoInit();
 });
 
 </script>
